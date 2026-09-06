@@ -1,0 +1,29 @@
+# Core LangChain
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-mistralai  # Mistral AI ke liye [citation:7]
+
+# YouTube Transcript
+youtube-transcript-api
+
+# Vector Store (FAISS - local, Render ke liye acha hai)
+faiss-cpu
+
+# Embeddings (Local or API based)
+sentence-transformers  # Agar local embeddings use karein [citation:11]
+# Ya agar Mistral embeddings use karein toh langchain-mistralai hi kaafi hai
+
+# Web Framework (Production API)
+fastapi
+uvicorn
+python-multipart
+
+# Environment & Utilities
+python-dotenv
+pydantic
+tenacity  # API retry logic ke liye [citation:7]
+
+# Optional: For better production workflow
+langgraph  # Agar complex agentic workflow chahiye [citation:2][citation:4]
