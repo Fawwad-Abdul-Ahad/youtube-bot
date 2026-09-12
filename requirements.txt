@@ -4,8 +4,9 @@ langchain-core
 langchain-community
 langchain-text-splitters
 langchain-mistralai  # Mistral AI ke liye [citation:7]
-
+langchain-huggingface  # Hugging Face ke liye [citation:8]
 # YouTube Transcript
+langchain-chroma
 youtube-transcript-api
 
 # Vector Store (FAISS - local, Render ke liye acha hai)
